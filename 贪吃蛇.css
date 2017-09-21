@@ -1,0 +1,19 @@
+#map{
+	border: 1px solid black;
+	box-shadow: 0 0 30px 5px black;
+	position: absolute;
+	left: 0;top: 0;right: 0;bottom: 0;
+	margin: auto;
+	font-size:0;
+}
+span{
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+span.snake{
+	background-color: skyblue;
+}
+span.food{
+	background-color: orange;
+}
